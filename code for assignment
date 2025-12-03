@@ -1,0 +1,57 @@
+# Starter code for Data Centric Programming Assignment 2025
+
+# os is a module that lets us access the file system
+# Bryan Duggan likes Star Trek
+# Bryan Duggan is a great flute player
+
+import os
+import sqlite3
+import pandas as pd
+
+# ==============================
+# Stage 1: Database
+# ==============================
+
+def get_connection(db_path="tunes.db"):
+    """Open the SQLite database."""
+    return sqlite3.connect(db_path)
+
+def init_db(conn):
+    """Create database tables."""
+    pass
+
+# ==============================
+# Stage 2: Parsing
+# ==============================
+
+def parse_abc_file(path, book_number):
+    """Parse a .abc file."""
+    pass
+
+# ==============================
+# Stage 3: File Loading
+# ==============================
+
+def load_all_abc_files(base_dir):
+    """Walk through abc_books directory."""
+    pass
+
+# ==============================
+# Stage 4: 
+# ==============================
+
+def (conn):
+    pass
+
+# ==============================
+# Stage 5: main
+# ==============================
+
+def main():
+    conn = get_connection()
+    init_db(conn)
+    # load files, parse, and insert into DB
+    conn.close()
+
+if __name__ == "__main__":
+    main()
