@@ -2,13 +2,19 @@
 
 - [Assignment Brief](assignment.md)
 
-Name:
+Name: Eric Meagher
 
-Student Number: 
+Student Number: C24733845
 
 # Screenshots
+- Menu
+<img src="C:\Users\ericm\OneDrive\Pictures\Screenshots\Screenshot 2025-12-09 212621.png"
+
+- GUI
+<img src="C:\Users\ericm\OneDrive\Pictures\Screenshots\Screenshot 2025-12-09 212828.png"
 
 # Description of the project
+This is my Datacentric Programming Project which contains a list of different traditional Irish tunes, and also provides a user interface for people to lookup different tunes.
 
 # Instructions for use
 
@@ -104,3 +110,4 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
