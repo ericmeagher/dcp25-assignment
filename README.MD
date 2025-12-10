@@ -8,10 +8,10 @@ Student Number: C24733845
 
 # Screenshots
 - Menu
-<img src="C:\Users\ericm\OneDrive\Pictures\Screenshots\Screenshot 2025-12-09 212621.png">
+<img src="C:\Users\ericm\Downloads\Screenshot 2025-12-09 212828.png">
 
 - GUI
-<img src="C:\Users\ericm\OneDrive\Pictures\Screenshots\Screenshot 2025-12-09 212828.png">
+<img src="C:\Users\ericm\Downloads\Screenshot 2025-12-09 212621.png">
 
 # Description of the project
 This is my Datacentric Programming Project which contains a list of different traditional Irish tunes, and also provides a user interface for people to lookup different tunes.
@@ -59,3 +59,4 @@ I am proud that I completed this assignment, as it was quite intimidating at fir
 
 # What I learned
 I learned that a program doesn’t have to be one huge file, it can be split into separate files (like abc_parser.py, database.py, main.py, gui.py) with each handling a different job, and then those files can import each other and work together as one program. 
+
