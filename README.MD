@@ -17,101 +17,45 @@ Student Number: C24733845
 This is my Datacentric Programming Project which contains a list of different traditional Irish tunes, and also provides a user interface for people to lookup different tunes.
 
 # Instructions for use
-Run the program in Visual Studio Code, a menu will then pop up in the terminal giving you a list of 6 different options. To chose one of the options you enter the corresponding number 
+1. Run the program in Visual Studio Code, a menu will then pop up in the terminal giving you a list of 6 different options.
 
-2. 
+2. To chose one of the options you enter the corresponding number next to the text option.
+
+3. Good to Go.
 
 # How it works:
+***The program:***
+
+- Reads all the .abc music files and turns each tune into a Python dictionary with fields like x, title, meter, key, rtype, and body.​
+
+- Stores those dictionaries as rows in a SQLite database table called tunes inside tunes.db.​
+
+- Loads the tunes table into pandas so you can search and filter by title, book number, or tune type, either from the text menu or the simple Tkinter GUI.​
 
 # List of files in the project
 
-| Files | Source |
-|-----------|-----------|
-| main.py | Self written |
-| test.py | Modified from [reference]() |
-| test.py | From [reference]() |
+| File       | Source                     |
+|------------|----------------------------|
+| main.py    | Self written               |
+| database.py| Self written               |
+| abc_parser.py | From lab starter code / notes |
+| gui.py     | Self written/Youtube       |
+
 
 # References
-* Item 1
-* Item 2
+* database.py
+https://nagasudhir.blogspot.com/2024/11/import-export-pandas-dataframes-to.html
+
+* gui.py
+https://www.youtube.com/watch?v=vjR45AHBprk&list=PLZPZq0r_RZOOeQBaP5SeMjl2nwDcJaV0T&index=8
+https://www.youtube.com/watch?v=atBeNqFJ9SY&list=PLZPZq0r_RZOOeQBaP5SeMjl2nwDcJaV0T&index=18
+https://www.youtube.com/watch?v=VkTrrqnWjsg&list=PLZPZq0r_RZOOeQBaP5SeMjl2nwDcJaV0T&index=4
+
+* abc_parser.py
+Notes from Lab 5 in https://github.com/skooter500/dcp25/blob/main/week5/lab_solution.py
 
 # What I am most proud of in the assignment
-
-Bla bla bla
+I am proud that I completed this assignment, as it was quite intimidating at first. But once I broke it down into its smaller pieces I was able to work on it and get it working. 
 
 # What I learned
-
-Bla bla bla
-
-## Below is how to use Markdown. You can delete this:
-
-## This is how to markdown text:
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-
-|Some stuff | Some more stuff in this column |
-
-
+I learned that a program doesn’t have to be one huge file, it can be split into separate files (like abc_parser.py, database.py, main.py, gui.py) with each handling a different job, and then those files can import each other and work together as one program. 
