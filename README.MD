@@ -8,15 +8,18 @@ Student Number: C24733845
 
 # Screenshots
 - Menu
-<img src="C:\Users\ericm\OneDrive\Pictures\Screenshots\Screenshot 2025-12-09 212621.png"
+<img src="C:\Users\ericm\OneDrive\Pictures\Screenshots\Screenshot 2025-12-09 212621.png">
 
 - GUI
-<img src="C:\Users\ericm\OneDrive\Pictures\Screenshots\Screenshot 2025-12-09 212828.png"
+<img src="C:\Users\ericm\OneDrive\Pictures\Screenshots\Screenshot 2025-12-09 212828.png">
 
 # Description of the project
 This is my Datacentric Programming Project which contains a list of different traditional Irish tunes, and also provides a user interface for people to lookup different tunes.
 
 # Instructions for use
+Run the program in Visual Studio Code, a menu will then pop up in the terminal giving you a list of 6 different options. To chose one of the options you enter the corresponding number 
+
+2. 
 
 # How it works:
 
@@ -110,4 +113,5 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
